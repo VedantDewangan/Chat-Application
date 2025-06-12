@@ -1,0 +1,36 @@
+.chat-detail{
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.each-chat{
+    display: flex;
+    background-color: rgb(52, 52, 52);
+    width: 95%;
+    border-radius: 40px;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    transition: all 0.3 ease-in;
+}
+
+.each-chat:hover{
+    background-color: rgb(62, 62, 62);
+}
+
+.each-chat img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.each-chat-text p:first-child{
+    font-size: 1.3em;
+}   
+
+.each-chat-text p:last-child{
+    font-size: 0.8em;
+    opacity: 0.8;
+}

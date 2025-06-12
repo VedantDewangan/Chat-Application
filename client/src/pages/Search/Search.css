@@ -1,0 +1,97 @@
+.search-con{
+    padding: 10px;
+    display: flex;
+    width: 95%;
+}
+
+.detail{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.search-con input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    border: 1px solid darkgray;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.search-con button{
+    padding: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(255, 75, 75);
+    background-color: rgb(255, 75, 75);
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.search-con button:hover{
+    background-color: rgb(255, 23, 23);
+}
+
+.search-con button:active{
+    scale: 0.95;
+}
+
+.all-searched-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.all-searched-user div {
+    display: flex;
+    background-color:rgb(50,50,50);
+    padding: 10px;
+    width: 95%;
+    border-radius: 40px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.all-searched-user div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.all-searched-user div button{
+    outline: none;
+    border: none;
+    background-color: lightskyblue;
+    width: 40%;
+    color: black;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+
+.all-searched-user div button:hover{
+    background-color: rgb(194, 232, 255);
+}
+
+.all-searched-user div button:active{
+    scale: 0.9;
+}
+
+.searched-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.searched-name p:first-child{
+    font-size: 1.1em;
+}
+
+.searched-name p:last-child{
+    font-size: 1em;
+    opacity: 0.8;
+}

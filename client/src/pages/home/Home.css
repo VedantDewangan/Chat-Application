@@ -1,0 +1,92 @@
+.page{
+    background-color: rgb(20, 20, 20);
+    min-height: 100vh;
+    display: flex;
+    overflow-y: hidden;
+}
+
+.menu{
+    width: 5vw;
+    display: flex;
+}
+
+.menu span{
+    font-size: 2.2em;
+    cursor: pointer;
+}
+
+.main{
+    min-height: 100vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.details{
+    background-color: rgb(32,32,32);
+    height: 100vh;
+    min-width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.details-1 img{
+    height: 220px;
+    width: 220px;
+    margin: auto;
+    padding: 15px;
+    display: block;
+    border-radius: 50%;
+}
+
+.details-1 div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+
+.details-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.details-2 button{
+    padding: 12px 22px;
+    cursor: pointer;
+    font-size: 1em;
+    outline: none;
+    border-radius: 25px;
+    border: none;
+    transition: all 0.1s ease-in;
+    background-color: rgb(255, 85, 85);
+}
+
+.details-2 button:first-child{
+    background-color: gray;
+    color: black;
+}
+
+.details-2 button:active{
+    scale: 0.9;
+}
+
+.details-2 button:first-child:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+.details-2 button:last-child:hover{
+    background-color: rgb(255, 48, 48);
+}

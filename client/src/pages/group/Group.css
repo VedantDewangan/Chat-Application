@@ -1,0 +1,102 @@
+.add-remove-con {
+    display: flex;
+    padding: 10px;
+    align-items: start;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.add-con,
+.remove-but {
+    background-color: rgb(50, 50, 50);
+    width: 40%;
+    padding: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.add-con,
+.remove-but p {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.add-con div {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: all 0.1s ease-in;
+    gap: 10px;
+}
+
+.remove-but div {
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    gap: 10px;
+}
+
+.remove-but div:active {
+    scale: 0.9;
+}
+
+.add-con div:active {
+    scale: 0.9;
+}
+
+.add-con img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.remove-but img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.but-create{
+    padding-bottom: 10px;
+}
+
+.but-create button{
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.input-name{    
+    padding-top: 10px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input-name p{
+    padding: 10px;
+}
+
+.input-name input{
+    outline: none;
+    border: none;
+    background-color: lightgrey;
+    color: black;
+    width: 100%;
+    padding: 10px;
+}

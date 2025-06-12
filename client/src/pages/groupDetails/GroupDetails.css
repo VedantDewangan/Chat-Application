@@ -1,0 +1,39 @@
+.group-details-img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.group-details-p{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.group-detail{
+    justify-content: start;
+}
+
+.group-details-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+    background-color: rgb(52, 52, 52);
+    padding: 10px 40px 10px 10px;
+    border-radius: 40px;
+}
+
+.group-details-div img{
+    height: 60px;
+    width: 60px;
+}
+
+.group-detail-span{
+    width: 95%;
+    padding: 10px;
+    cursor: pointer;
+}

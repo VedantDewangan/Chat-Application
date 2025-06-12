@@ -1,0 +1,47 @@
+.req{
+    padding-top: 30px;
+    gap: 10px;
+}
+
+.request-con{
+    display: flex;
+    background-color: rgb(50, 50, 50);
+    width: 90%;
+    padding: 10px;
+    border-radius: 40px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.request-con img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.request-con div button{
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.request-con div button:first-child{
+    background-color: lightgreen;
+    color: black;
+    border-radius: 40px 0px 0px 40px;
+    transition: all 0.3s ease-in;
+}
+
+.request-con div button:first-child:hover{
+    background-color: rgb(108, 255, 108);
+}
+
+.request-con div button:last-child{
+    background-color: lightcoral;
+    border-radius: 0px 40px 40px 0px;
+}
+
+.request-con div button:last-child:hover{
+    background-color: rgb(255, 96, 96);
+}

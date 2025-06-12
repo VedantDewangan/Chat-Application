@@ -1,0 +1,95 @@
+.update-detail{
+    width: min-content;
+    overflow: auto;
+    display: flex;
+    gap: 10px;
+}
+
+.update-detail::-webkit-scrollbar{
+    width: 10px;
+    background-color: lightgray;
+}
+
+.update-detail::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.update-form {
+    background-color: rgb(50, 50, 50);
+    width: 90%;
+    padding: 10px;
+}
+
+.update-form p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.update-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.update-form input,
+button {
+    padding: 10px 20px;
+}
+
+.update-form input{
+    outline: none;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 40px;
+    color: black;
+}
+
+.update-form button{
+    outline: none;
+    border: none;
+    background-color: lightskyblue;
+    border-radius: 40px;
+    width: max-content;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.update-form button:hover{
+    background-color: rgb(58, 180, 255);
+}
+
+.update-form-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px 0px 0px;
+}
+
+.update-back-but {
+    padding: 20px 10px;
+}
+
+.update-back-but button {
+    padding: 10px 20px;
+    background-color: darkgray;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: max-content;
+    color: black;
+    transition: all 0.3s ease-in;
+}
+
+.update-back-but button:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.for-update{
+    width: 80%;
+}
