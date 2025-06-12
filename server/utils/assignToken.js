@@ -1,6 +1,8 @@
 import jwt from "jsonwebtoken";
+import dotenv from 'dotenv';
 
-const SECRET_KEY = "vedant_secret_key";
+dotenv.config();
+const SECRET_KEY = process.env.SECRET_KEY;
 
 export const assignToken = (user, res) => {
   const token = jwt.sign(
