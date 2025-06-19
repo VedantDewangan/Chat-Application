@@ -122,6 +122,7 @@ export const logout = async (req, res) => {
             path:"/",
             domain:"zingchat-ixb4.onrender.com"
         });
+        console.log("user logout");
 
         res.status(200).json({ message: "User logged out successfully" });
     } catch (error) {
